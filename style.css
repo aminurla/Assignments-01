@@ -9,6 +9,9 @@ h1{
     font-size: 40px;
 }
 
+.section-first{
+    background-image: url("images/banner/banner1.png");
+}
 .section{
     width: 90%;
     display: flex;
