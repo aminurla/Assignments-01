@@ -3,13 +3,13 @@ font-family: 'PT Serif', serif; */
 body{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
-    background-image: url(images/banner/banner1.png);
+    font-family: 'Poppins', sans-serif; 
 }
 h1{
-    font-size: 45px;
+    font-size: 40px;
 }
-.section-first{
+
+.section{
     width: 90%;
     display: flex;
     margin: 0 auto;
@@ -17,37 +17,6 @@ h1{
 .text-part{
     width: 45%;
     padding: 5%;
-}
-.image-part{
-    padding: 5%;
-    width: 30%;
-}
-.image-part-img{
-    width: 350px;
-}
-.first-heading{
-    font-size: 30px;
-    padding-left: 2%;
-    line-height: 30px;
-
-}
-.btn{
-    padding: 13px 30px;
-    background-color: coral;
-    border-style: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-}
-.section-secound{
-    margin-top: 50px;
-    align-items: center;
-    margin: 0 auto;
-}
-.section-secound{
-    width: 90%;
-    display: flex;
-    margin: 0 auto;
 
 }
 .image-part{
@@ -56,27 +25,140 @@ h1{
 }
 .image-part img{
     width: 350px;
-    background-color: burlywood;
+}
+.first-heading{
+    font-size: 30px;
+    padding-left: 2%;
+    border-left: 5px solid #548CFF;
+    line-height: 30px;
+}
+.color-heading{
+    color: #548CFF;
+}
+.btn{
+    padding: 13px 30px;
+    background-color: #548CFF;
+    border-style: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #3879fc;
 }
 
-.development-javascript-smoking-ecommerce{
-    width: 85%;
+.mission-vission-goals{
+    width: 83%;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
 }
-.plans-heading{
-    font-size: 45px;
+.mission-heading{
+    font-size: 40px;
     text-align: center;
     margin: 0 auto;
     padding: 3%;
     display: block;
 }
 
-.section-call{
-    background-image: url(images/watch.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.mission-part{
+    width: 25%;
+    padding:0 3%;
+    background-color: #FFEDED;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: .6s;
+}
+.mission-part:hover{
+    box-shadow: 0px 0px 7px;
+}
+.mission-part img{
+    width: 150px;
+}
+.Vission{
+    background-color: #CFFFDC;
+}
+.goals{
+    background-color: #FFF9B6;
 }
 
+.section-third{
+    margin-top: 50px;
+
+}
+
+.section-third{
+    background-image: url("images/shape-1.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 200px;
+}
+.section-forth{
+    background-image: url("images/shape-1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 200px;
+}
+
+/* Contact Us CSS */
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact-from{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .contact-heading{
+      text-align: center;
+      padding-top: 30px;
+  }
+  .info-part{
+    display: flex;
+    margin: 0 auto;
+  }
+
+.contact-part-1{
+    width: 50%;
+    margin-right: 5%;
+  }
+.contact-part-2{
+    width: 50%;
+  }
+
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+
+  /* Footer Area CSS */
+  .footer-area{
+      background-color: black;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+  }
+ .footer-text p{
+     color: #CFFFDC;
+ }
+
+.footer-text h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.footer-color-text{
+    color: #548CFF;
+}
 
